@@ -1,0 +1,887 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NRN service</title>
+
+    <link rel="stylesheet" href="nrnservice.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" /></head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+
+</head>
+<body>
+    
+    <!-- hearder start -->
+    <header class="header">
+
+        <nav class="navbar">
+    
+    <div class="drop-down">
+        <div class="wrapper">
+    <img src="asset/image/nigeria flag.jpg" class="selectedimg">
+    <div class="selected">nigeria</div>
+        </div>
+        <i class="fa-solid fa-arrow-down arrow"></i>
+    
+    <div class="list">
+        <div class="item">
+            <img src="asset/image/canada flag.png">
+            <div class="text">canada</div>
+        </div>
+    
+        <div class="item">
+            <img src="asset/image/china flag.jpg">
+            <div class="text">china </div>
+        </div>
+    
+        <div class="item">
+            <img src="asset/image/ghana flag.jpg">
+            <div class="text">ghana</div>
+        </div>
+    
+        <div class="item">
+            <img src="asset/image/brazil flag.jpg">
+            <div class="text">brazil</div>
+        </div>
+    
+        <div class="item">
+            <img src="asset/image/egyp flag.png">
+            <div class="text">egyp</div>
+        </div>
+    
+    </div>
+    
+    </div>
+    
+    <div class="menu-bar">
+        <ul>
+    
+            <li class="active" class="hover-me"><a href="index.html"></i>locate</a>
+                <div class="sub-menu-1">
+                    <ul>
+        <li class="hover-me"><a href="#"><i class="fa-sharp fa-solid fa-bank"></i>locate a branch</a></li>
+        <li class="hover-me"><a href="#"><i class="fa-solid fa-credit-card"></i>Information</a></li>
+    
+                    </ul>
+    
+            </li>
+    
+        </div>
+    </div>
+    
+            <ul>
+            <li><a href="media.html">media</a></li>
+            <li><a href="helpcenter.html">help center</a></li>
+            <li><a href="security.html">security</a></li>
+        </ul>
+        </nav>
+    
+    
+    
+        <div class="icons">
+            <i class="fa-solid fa-bars" id="menu-btn"></i>
+            <i class="fa-solid fa-search" id="search-btn"></i>
+            <div class="log"><i class="fa-solid fa-lock" id="login-btn"></i>online banking login</div>
+        </div>
+      
+        <a href="#" class="logo"><img src="asset/image/logu.png" class="log" alt=""></i>gtb lmt</a>
+    
+    
+        <form action="" class="search-form">
+            <input type="search" id="search-box" placeholder="search here...">
+            <label for="search-box" class="fa-solid fa-search"></label>
+        </form>
+    
+    
+    
+    
+    
+        <form action="" class="login-form">
+    
+            <h3>login now</h3>
+            <input type="email" placeholder="your email" class="box">
+            <input type="password" placeholder="your password" class="box">
+            <p>forget your password <a href="#"> click here</a></p>
+            <p>don't have an account <a href="#"> create now</a></p>
+                <input type="radio">
+            <input type="submit" value="login now" class="btn">
+    
+        </form>
+    </header>
+
+
+
+
+<section class="pure">
+<!-- Example split danger button -->
+<div class="btn-group">
+    <button type="button" class="btn btn-danger">personal</button>
+    <button type="button" class="btn btn-danger dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+      <span class="visually-hidden">Toggle Dropdown</span>
+    </button>
+    <ul class="dropdown-menu">
+      <li><a class="dropdown-item" href="">account</a></li>
+      <li><a class="dropdown-item" href="#">service</a></li>
+      <li><a class="dropdown-item" href="#">cards</a></li>
+      <li><a class="dropdown-item" href="#">loans</a></li>
+      <li><a class="dropdown-item" href="#">way to bank</a></li>
+    </ul>
+  </div>
+
+
+  <!-- Example split danger button -->
+<div class="btn-group">
+    <button type="button" class="btn btn-danger">business</button>
+    <button type="button" class="btn btn-danger dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+      <span class="visually-hidden">Toggle Dropdown</span>
+    </button>
+    <ul class="dropdown-menu">
+      <li><a class="dropdown-item" href="#">Action</a></li>
+      <li><a class="dropdown-item" href="#">Another action</a></li>
+      <li><a class="dropdown-item" href="#">Something else here</a></li>
+      <li><hr class="dropdown-divider"></li>
+      <li><a class="dropdown-item" href="#">Separated link</a></li>
+    </ul>
+  </div>
+
+
+  <!-- Example split danger button -->
+<div class="btn-group">
+    <button type="button" class="btn btn-danger">about us</button>
+    <button type="button" class="btn btn-danger dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+      <span class="visually-hidden">Toggle Dropdown</span>
+    </button>
+    <ul class="dropdown-menu">
+      <li><a class="dropdown-item" href="#">Action</a></li>
+      <li><a class="dropdown-item" href="#">Another action</a></li>
+      <li><a class="dropdown-item" href="#">Something else here</a></li>
+      <li><hr class="dropdown-divider"></li>
+      <li><a class="dropdown-item" href="#">Separated link</a></li>
+    </ul>
+  </div>
+
+
+  <!-- Example split danger button -->
+<div class="btn-group">
+    <button type="button" class="btn btn-danger">investor relations</button>
+    <button type="button" class="btn btn-danger dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+      <span class="visually-hidden">Toggle Dropdown</span>
+    </button>
+    <ul class="dropdown-menu">
+      <li><a class="dropdown-item" href="#">Action</a></li>
+      <li><a class="dropdown-item" href="#">Another action</a></li>
+      <li><a class="dropdown-item" href="#">Something else here</a></li>
+      <li><hr class="dropdown-divider"></li>
+      <li><a class="dropdown-item" href="#">Separated link</a></li>
+    </ul>
+  </div>
+
+
+  <!-- Example split danger button -->
+<div class="btn-group">
+    <button type="button" class="btn btn-danger">open account</button>
+    <button type="button" class="btn btn-danger dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+      <span class="visually-hidden">Toggle Dropdown</span>
+    </button>
+    <ul class="dropdown-menu">
+      <li><a class="dropdown-item" href="#">Action</a></li>
+      <li><a class="dropdown-item" href="#">Another action</a></li>
+      <li><a class="dropdown-item" href="#">Something else here</a></li>
+      <li><hr class="dropdown-divider"></li>
+      <li><a class="dropdown-item" href="#">Separated link</a></li>
+    </ul>
+  </div>
+
+
+
+
+
+
+  <section class="media-bar">
+    <p><a href="index.html">home</a><a href="personal.html"></a> <a href="investor.html">personal</a> <a href=""></a>Non Resident Nigerian (NRN) Service
+    </p>
+    
+        <div class="media-box">
+      <div class="media-box-1">
+        <div class="media">
+            <h1>NRN Services</h1>
+<p>The Non Resident Nigerian (NRN) Service provides Nigerians living abroad with access to a wide range of products and services; some of which include Savings and Current accounts, Investment in Money Market instruments and eBanking services.
+<br>
+<br>
+This premium service offers Nigerians in Diaspora the opportunity to open and operate a Nigerian bank account from anywhere in the world.
+</p>
+          </p>
+
+        </div>
+
+          <div class="media-1">
+         <img src="asset/image/call center.jpg" alt="">
+          </p>
+        </div>
+      </div>
+    </div>
+    </section>
+    
+ 
+    
+
+    <section class="text-not">
+       
+        <div class="row">
+            
+
+                
+
+            <div class="col-8">
+
+             
+
+
+              <div data-bs-spy="scroll" data-bs-target="#list-example" data-bs-smooth-scroll="true" class="scrollspy-example" tabindex="0">
+               
+                <h4 class="list-item-5"> Getting Started</h4>
+                
+                <h5>You will need the following documents to apply for an NRN account:</h5>
+                <div class="loos">
+                    <span> 1.<p>Duly completed NRN Account Opening Form.</p>  </span>
+                
+                    <span> 2.<p>Duly completed Self-Certification Form, Data Privacy Consent Form & Bankers Confirmation Form.</p>  </span>
+
+                    <span> 3.<p>Valid National ID (NIN/vNIN).</p>  </span>
+                
+                    <span> 4.<p>Notarized Foreign ID.</p>  </span>
+
+                    <span> 5.<p>Notarized Foreign Utility Bill, or Stamped Foreign Bank Statement issued within the last 3 months.</p>  </span>
+
+                    <span> 6.<p>Your recent passport photo with full face forward.</p>  </span>
+
+                    <span> 7.<p>BVN</p>  </span>
+
+                    <span> 8.<p>Identification issued by employer, pay-slips, or statement of accounts from a bank in the country of residence.</p>  </span>
+
+                    <span> 9.<p>Reference letter confirmation from bank capturing Name, Date of Birth, Residential Addresses of the prospective customer (for cases where banker’s confirmation form cannot be filled out by bank).</p>  </span>
+
+
+                </div>
+               
+                
+
+                <hr>
+                <h1>Open an Account</h1>
+                <h4 class="list-item-5">  <p><i class="fa-solid fa-mobile-button"></i></p><a href="openacct.html">Open a GTBank Non-Resident Nigerian (NRN) Account Today</a></h4>
+                
+                <p>
+                You can open an NRN account from anywhere in the world. Ensure you have the requisite documents with you.
+     <br>
+    <br>
+    We look forward to having you onboard the service that lets you bank like you never left home. For further assistance, you can send an email to nrnaccount@gtbank.com
+    
+</p>
+
+
+
+    <div class="gooper">
+       <p><a href="#">Open a Non-Resident Nigerian Account <i class="fa-solid fa-chevron-right"></i></a></p>
+    </div>
+
+    <div class="gooper">
+        <p><a href="#">NRN Proxy Pickup Form <i class="fa-solid fa-chevron-right"></i></a></p>
+     </div>
+
+     <div class="gooper">
+        <p><a href="#">Self Certification Form - Individuals <i class="fa-solid fa-chevron-right"></i></a></p>
+     </div>
+
+     <div class="gooper">
+        <p><a href="#">Self Certification Form - Controlling Persons <i class="fa-solid fa-chevron-right"></i></a></p>
+     </div>
+
+     <div class="gooper">
+        <p><a href="#">NRN SKS Teen Account Update Form <i class="fa-solid fa-chevron-right"></i></a></p>
+     </div>
+
+     <div class="gooper">
+        <p><a href="#">Additional Account Opening Form <i class="fa-solid fa-chevron-right"></i></a></p>
+     </div>
+
+     <div class="gooper">
+        <p><a href="#">Reference Form for Individuals.pdf <i class="fa-solid fa-chevron-right"></i></a></p>
+     </div>
+
+     <div class="gooper">
+        <p><a href="#">NRN Account Collectibles - Courier Delivery <i class="fa-solid fa-chevron-right"></i></a></p>
+     </div>
+
+     <div class="gooper">
+        <p><a href="#">Open a Non-Resident Nigerian Account <i class="fa-solid fa-chevron-right"></i></a></p>
+     </div>
+
+     
+
+
+
+
+    <hr>
+
+    <h1>e-Services</h1>
+    <h4 class="list-item-5">  <p><i class="fa-solid fa-bank"></i></p><a href="openacct.html">Internet Banking</a></h4>
+    
+<p>Internet banking launches you into a world without limits. It is a robust channel designed with the state-of –the-art technology that gives you unlimited access to your accounts and allows you conveniently perform your banking transactions online real-time.
+  
+<br>
+    <br>
+    As an NRN customer you can do the following via the Internet Banking platform:
+</p>                
+             
+    
+<div class="loos">
+    
+    <span> <i class="fa-solid fa-check"></i><p>View real time account balances and track up-to-the minute transactions on your accounts    </p>  </span>
+
+    <span> <i class="fa-solid fa-check"></i><p>Check your balance, monitor transactions and print your account statement.    </p>  </span>
+
+    <span> <i class="fa-solid fa-check"></i><p>Pay utility bills, transfer funds between your accounts and to other beneficiaries.    </p>  </span>
+
+    <span> <i class="fa-solid fa-check"></i><p>Request, confirm and stop cheques.    </p>  </span>
+
+    <span> <i class="fa-solid fa-check"></i><p>Pay for your US Visa fee    </p>  </span>
+
+</div>
+<div class="gooper">
+    <p><a href="#">Learn More About Internet Banking <i class="fa-solid fa-chevron-right"></i></a></p>
+ </div>
+
+ <div class="gooper">
+    <p><a href="#">Register for Internet Banking <i class="fa-solid fa-chevron-right"></i></a></p>
+ </div>
+ <br>
+<br>
+<br>
+<a href="#" class="btns">login to Internet banking <i class="fa-solid fa-chevron-right"></i></a>
+
+    
+    <hr>  
+    
+    
+    <h4 class="list-item-5"> <a href="openacct.html">BVN Registration & Update</a></h4>
+
+<p>The Bank Verification Number (BVN) gives each Bank customer a unique identity across the Nigerian Banking industry that can be used for easy identification and verification at Point of Banking operations.
+
+    <br>
+    <br>
+    As an NRN account holder, you are required to enrol and update your records voluntarily with the bank by visiting any of the appointed OIS or VFS Centres.
+</p>
+        <div class="gooper">
+            <p><a href="#">List of Appointed OIS/VFS Centres <i class="fa-solid fa-chevron-right"></i></a></p>
+         </div>
+          
+<p>If you have obtained your BVN from another Nigerian bank, you can link your BVN to your GTBank account online via our Internet Banking platform and Corporate website.
+
+</p>
+
+
+
+
+
+  
+                
+<h4 class="list-item-5"><a href="openacct.html">FAQs </a></h4>        
+    
+            
+<div class="loosts">
+   
+  <div class="accordion">
+    <div class="accordion-item">
+      <div class="accordion-header">
+        What is the GTBank NRN service?
+      </div>
+      <div class="accordion-content">
+        <p>The Non Resident Nigerian service offering is a platform for Nigerians who reside outside the country to have access to the wide range of products and services the Bank presently offers
+
+        </p>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <div class="accordion-header">
+        What documents are required to open an NRN account?
+      </div>
+      <div class="accordion-content">
+        <p>You will need the following documents to apply for an NRN account:
+        </p>
+        <p>a. Duly completed NRN Account Opening Form
+        </p>
+        <p>b. Your passport photo with full face forward
+        </p>
+        <p>c. A copy of any of the following means of Identification:
+        </p>
+        <p><li>Valid Nigerian International passport/National ID/Permanent Voters’ Card/Drivers’ License
+        </li></p>
+      </div>
+    </div>
+
+  
+  
+    <div class="accordion-item">
+      <div class="accordion-header">
+        What electronic channels and services are available to NRN customers?
+      </div>
+      <div class="accordion-content ">
+        <p>The following electronic channels are available to the NRN customer:
+        </p>
+<p>i. Card services:
+</p>
+<p><li>MasterCard (USD and Naira denominated)
+</li></p>
+<p>ii. GTWorld App
+</p>
+<p>iii. GTConnect:
+</p>
+<p>It is a total banking solution that provides the NRN customer instant service via a touch-tone or mobile phone. It is accessible from anywhere in the world and open for business 24 hours a day, seven days a week (Including public holidays) The NRN customer with a PIN password can do the following:
+</p>
+
+      </div>
+    </div>
+
+    <div class="accordion-item">
+      <div class="accordion-header">
+        Do customers who have an account with GTBank UK require references to open an NRN account?
+      </div>
+      <div class="accordion-content">
+        <p>The Non Resident Nigerian service offering is a platform for Nigerians who reside outside the country to have access to the wide range of products and services the Bank presently offers
+
+        </p>
+      </div>
+    </div>
+
+    <div class="accordion-item">
+      <div class="accordion-header">
+        Do NRN customers who visit the country still have to notarize their documents?
+      </div>
+      <div class="accordion-content">
+        <p>The Non Resident Nigerian service offering is a platform for Nigerians who reside outside the country to have access to the wide range of products and services the Bank presently offers
+
+        </p>
+      </div>
+    </div>
+
+
+    <div class="accordion-item">
+      <div class="accordion-header">
+        What is the role of a Banker’s confirmation in the NRN account opening process?
+      </div>
+      <div class="accordion-content">
+        <p>The Non Resident Nigerian service offering is a platform for Nigerians who reside outside the country to have access to the wide range of products and services the Bank presently offers
+
+        </p>
+      </div>
+    </div>
+
+    <div class="accordion-item">
+      <div class="accordion-header">
+        Can corporate accounts be opened for Non Resident Nigerians under the NRN service platform?
+      </div>
+      <div class="accordion-content">
+        <p>The Non Resident Nigerian service offering is a platform for Nigerians who reside outside the country to have access to the wide range of products and services the Bank presently offers
+
+        </p>
+      </div>
+    </div>
+
+    <div class="accordion-item">
+      <div class="accordion-header">
+        Can NRN customers who reside in London submit their account opening package in GTBank UK?
+      </div>
+      <div class="accordion-content">
+        <p>The Non Resident Nigerian service offering is a platform for Nigerians who reside outside the country to have access to the wide range of products and services the Bank presently offers
+
+        </p>
+      </div>
+    </div>
+  </div>
+  
+    
+        </div>
+ 
+
+
+
+
+<hr>
+<h4 class="list-item-5">  Contact the NRN Services Team</h4>
+<p>
+  To get in touch with the NRN services team, please send an email to nrnaccount@gtbank.com or via GTConnect, our 24hour contact center, on +234-1-4480000, +234 80 2900 2900 or +234 80 3900 3900.
+
+</p>   
+
+
+</div>
+</div>
+
+
+
+            <div class="col-4">
+                <h4 id="list-item-1">NRN Services</h4>
+    
+              <div id="list-example" class="list-group">
+                <a class="list-group-item list-group-item-action" href="#list-item-1"><i class="fa-solid fa-chevron-right"></i>Getting Started                </a>
+                <a class="list-group-item list-group-item-action" href="#list-item-2"><i class="fa-solid fa-chevron-right"></i>Open an Account                </a>
+                <a class="list-group-item list-group-item-action" href="#list-item-3"><i class="fa-solid fa-chevron-right"></i>Internet Banking</a>
+                <a class="list-group-item list-group-item-action" href="#list-item-4"><i class="fa-solid fa-chevron-right"></i>Bank 737</a>
+                <a class="list-group-item list-group-item-action" href="#list-item-5"><i class="fa-solid fa-chevron-right"></i>GTAssistant</a>
+                <a class="list-group-item list-group-item-action" href="#list-item-5"><i class="fa-solid fa-chevron-right"></i>GTExpress Locations </a>
+                <a class="list-group-item list-group-item-action" href="#list-item-5"><i class="fa-solid fa-chevron-right"></i>GTConnect </a>
+                <a class="list-group-item list-group-item-action" href="#list-item-5"><i class="fa-solid fa-chevron-right"></i>E-Branches                </a>
+
+                <div class="number">
+                    <h3>Need Help?</h3>
+                  
+                    <h2><a href="helpcenter.html"><i class="fa-solid fa-chevron-right"></i>visit the help center</a>                    </h2>
+                    
+                    <p>or call</p>
+
+                    <a href="#">+234-08066610571</a>
+                    <br>
+                    <a href="#">+234-08066610571</a>
+                    
+    <br>
+    
+                </div>
+            </div>
+            </div>
+          </div>
+    
+        </section>
+    
+    
+    
+    
+
+    
+  
+        
+              
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+<div class="typs">
+    <div class="box">
+      
+
+       <div class="demo">
+     
+       </div>
+    
+    </div>
+
+  
+</div>
+</div>
+
+</div>
+</section>
+
+
+
+
+<section class="location-info">
+
+    <div class="info">
+
+        <div class="iconts">
+            <a href="#"><i class="fa-solid fa-location-dot"></i></a>
+            <p>find a branch</p>
+        </div>
+
+        <div class="iconts">
+            <a href="#"><i class="fa-solid fa-cloud-arrow-down"></i></a>
+            <p>dowloads</p>
+            </div>
+
+            <div class="iconts">
+                <a href="#"><i class="fa-solid fa-users"></i></a>
+                <p>self services</p>
+                </div>
+
+                <div class="iconts">
+                    <a href="#"><i class="fa-solid fa-tty"></i></a>
+                    <p>help center</p>
+                    </div>
+            
+                    <div class="iconts">
+                        <a href="#"><i class="fa-solid fa-video"></i></a>
+                        <p>vidio banking</p>
+                        </div>
+
+                        <div class="iconts">
+                            <a href="#"><i class="fa-solid fa-credit-card"></i></a>
+                            <p>habari pay</p>
+                            </div>
+
+                            <div class="iconts">
+                                <a href="#"><i class="fa-solid fa-hand-holding-dollar"></i></a>
+                                <p>investments</p>
+                                </div>
+                        
+                                <div class="iconts">
+                                   <a href="#"> <i class="fa-solid fa-users"></i></a>
+                                    <p>pension</p>
+                                    </div> 
+    </div>
+</section>
+
+
+
+
+<section class="footer">
+     
+    <div class="box-container">
+    
+    
+    
+        <div class="box">
+            <h3>personal</h3>
+            <a href="#" class="link">saving account</a>
+            <a href="#" class="link">gurrent account</a>
+            <a href="#" class="link">compare account</a>
+            <a href="#" class="link">non resident nigerian (NRN) service</a>
+            <a href="#" class="link">loens</a>
+            <a href="#" class="link">waye to bank</a>
+            <a href="#" class="link">private banking</a>
+
+        </div>
+    
+        <div class="box">
+            <h3>business</h3>
+            <a href="#" class="link">business banking</a>
+            <a href="#" class="link">cards</a>
+            <a href="#" class="link">e-banking service</a>
+            <a href="#" class="link">commercial banking</a>
+            <a href="#" class="link">loens & advances</a>
+            <a href="#" class="link">sme banking</a>
+            <a href="#" class="link">habaripay</a>
+    
+        </div>
+
+        <div class="box">
+            <h3>about us</h3>
+            <a href="#" class="link">our company</a>
+            <a href="#" class="link">careers</a>
+            <a href="#" class="link">corporate social responsibility</a>
+            <a href="#" class="link">investor relations</a>
+            <a href="#" class="link">contact us</a>
+            <a href="#" class="link">squad by habaripay</a>
+            <a href="#" class="link">habari pay</a>
+            <a href="#" class="link">guaranty trust fund managers</a>
+            <a href="#" class="link">guaranty trust pension managers</a>
+
+        </div>
+
+        <div class="box">
+            <h3>help and security</h3>
+            <a href="#" class="link">account reactivation</a>
+            <a href="#" class="link">conpliants & enquiries</a>
+            <a href="#" class="link">customer feedback survey</a>
+            <a href="#" class="link">dispense error</a>
+            <a href="#" class="link">help video</a>
+            <a href="#" class="link">self service</a>
+            <a href="#" class="link">security center</a>
+            <a href="#" class="link">whistle blower</a>
+
+        </div>
+
+
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#" class="link">find a branch/ATM</a>
+            <a href="#" class="link">all your bank form in one place</a>
+            <a href="#" class="link">BVN linking portal</a>
+            <a href="#" class="link">finalcial calculators</a>
+            <a href="#" class="link">irefer</a>
+            <a href="#" class="link">media center</a>
+            <a href="#" class="link">internal links</a>
+            <a href="#" class="link">video banking</a>
+            <a href="#" class="link">open account</a>
+
+        </div>
+
+        <div class="box">
+            <h3>saving account</h3>
+            <a href="#" class="link">current account</a>
+            <a href="#" class="link">compare account</a>
+            <a href="#" class="link">cards</a>
+            <a href="#" class="link">non resident nigerian (NRN) service</a>
+            <a href="#" class="link">irefer</a>
+            <a href="#" class="link">loans</a>
+            <a href="#" class="link">ways to bank</a>
+            <a href="#" class="link">private banking</a>
+
+        </div>
+
+
+        <div class="box">
+            <h3>business banking</h3>
+            <a href="#" class="link">cards</a>
+            <a href="#" class="link">e-banking services</a>
+            <a href="#" class="link">commercial banking</a>
+            <a href="#" class="link">loans & advances</a>
+            <a href="#" class="link">SME banking</a>
+            <a href="#" class="link">habaripay</a>
+
+        </div>
+
+
+        <div class="box">
+            <h3>our company</h3>
+            <a href="#" class="link">careers</a>
+            <a href="#" class="link">corporate social responsibility</a>
+            <a href="#" class="link">investor relations</a>
+            <a href="#" class="link">contact us</a>
+            <a href="#" class="link">squad by habaripay</a>
+            <a href="#" class="link">guaranty trust fund managers</a>
+            <a href="#" class="link">guaranty trust fund pension managers</a>
+
+        </div>
+
+
+        
+        
+        
+
+
+    
+        <!-- <div class="box">
+            <h3>newsletter</h3>
+                <p>subscribe for latest updates</p>
+    <input type="email" placeholder="your email" class="email">
+    <input type="submit" value="subscribe" class="btn">
+    <br>
+    <img src="asset/image/atm6.jpeg" class="payment-img">
+    <img src="asset/image/atn3.jpeg" class="payment-img">
+    <img src="asset/image/atm7.jpeg" class="payment-img" >
+    <img src="asset/image/atm 1.jpeg" class="payment-img">
+    
+        </div>
+    </div> 
+    -->
+    </section>
+   
+    
+
+    <section class="location-info">
+
+        <div class="infor">
+    
+            <div class="iconts">
+                <a href="#"><img src="asset/image/contact gtb.jpg" alt=""></a>
+            </div>
+    
+            <div class="iconts">
+                <div class="iconts">
+                    <a href="#">+234-08066610571</a>
+                </div>
+                   
+    
+                <div class="iconts">
+                    <a href="#">+234-08066610571</a>
+                    </div>
+
+                    <div class="iconts">
+                        <a href="#">+234-08066610571</a>
+                        </div>
+
+                        <div class="iconts">
+                            <a href="#">+234-08066610571</a>
+                            </div>
+                            <div class="iconts">
+                    <a href="#">+234-08066610571</a>
+                    </div>
+        </div>
+    </section>
+
+<section class="foot">
+    <div class="foota">
+        <div class="credit">created by <span>salihu barup</span>|all rights reserved</div>
+
+
+       
+<div class="gote1">
+    <div class="share">
+        <a href="#">terms & conditions</a>
+        <a href="#">ptivacy policy</a>
+        <a href="#" >sitemap</a>
+    </div>
+
+<div class="share">
+<a href="#" class="fab fa-facebook-f"></a>
+<a href="#" class="fab fa-twitter"></a>
+<a href="#" class="fab fa-instagram"></a>
+<a href="#" class="fab fa-youtube"></a>
+
+    </div>
+
+</div>      
+    
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    const accordionItems = document.querySelectorAll(".accordion-item");
+  
+    accordionItems.forEach(item => {
+      const header = item.querySelector(".accordion-header");
+  
+      header.addEventListener("click", function() {
+        // Toggle accordion content
+        const content = item.querySelector(".accordion-content");
+        content.classList.toggle("active");
+  
+        // Toggle accordion header style
+        header.classList.toggle("active");
+      });
+    });
+  });
+  
+</script>
+
+
+
+
+  
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<script src="script.js"></script> 
+
+
+</body>
+</html>
